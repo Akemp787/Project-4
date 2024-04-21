@@ -1,3 +1,20 @@
+# Ignore compiled files, distributions, etc.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+
+# Other specific files to ignore...
+*.sql
+*.db
+
+# Ignore the Resources folder and its contents
+Resources/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
